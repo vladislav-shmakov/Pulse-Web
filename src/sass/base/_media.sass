@@ -77,6 +77,18 @@
 		padding-right: 20px
 		&__img
 			margin-right: 50px
+	.footer
+		&__info
+			left: 74%
+			width: 400px
+			height: 200px
+			padding: 15px 0 0 0
+
+
+
+
+
+
 
 
 @media (max-width: 767px)
@@ -99,7 +111,26 @@
 		&__tab
 			width: 170px
 			font-size: 16px
-			
+	.footer
+		&__info
+			top: 76%	
+			left: 50%
+			width: 300px
+			height: 150px
+			padding: 15px 0 0 0
+		&__addr
+			font-size: 16px
+			line-height: 16px
+			margin-bottom: 20px
+		&__phone
+			font-size: 16px
+			margin-bottom: 20px
+			line-height: 16px
+		&__social-item
+			width: 40px
+			height: 40px
+			img
+				height: 22px
 
 @media (max-width: 575px)
 	.promo
@@ -121,6 +152,8 @@
 	.button_main
 		width: 270px
     	height: 50px
+	.button_submit
+		width: 100%
 	.header
 		&__phone
 			font-size: 12px
@@ -152,8 +185,7 @@
 		&__descr
 			margin-top: 50px
 			font-size: 16px
-		.button_submit
-			width: 100%
+	
 	.carousel
 		&__inner
 			width: 300px
@@ -178,3 +210,28 @@
 			text-align: center
 		&__text
 			font-size: 14px
+	.footer
+		&__info
+			top: 50%
+			bottom: 50%
+			left: 9%
+			width: 60px
+			height: 150px
+			padding: 0
+		&__addr
+			display: none
+		&__phone
+			display: none
+		&__social
+			flex-direction: column
+		&__social-item
+			margin: 5px
+
+	.modal
+		padding: 20px 30px 30px 30px
+		width: 250px
+		&__close
+			right: -28px
+		.feed-form, .feed-form_mt25
+			margin: 25px auto
+			max-width: 190px
